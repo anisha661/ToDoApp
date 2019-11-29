@@ -1,0 +1,194 @@
+.container {
+	margin-top: 5.5rem;
+	font-family: serif;
+	font-size: 19px;
+	min-height: 100vh; /* will cover the 100% of viewport */
+	overflow: hidden;
+	display: block;
+	position: relative;
+	padding-bottom: 100px;
+}
+
+.container-fluid {
+	margin-top: 6.5rem;
+	font-family: serif;
+	font-size: 19px;
+	min-height: 100vh; /* will cover the 100% of viewport */
+	overflow: hidden;
+	display: block;
+	position: relative;
+	padding-bottom: 100px;
+}
+
+body {
+	color: #999;
+	background: #f5f5f5;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.navbar {
+	padding: .8rem 1.5rem;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+
+.form-control {
+	box-shadow: none;
+	border-color: #ddd;
+}
+
+.form-control:focus {
+	border-color: #4aba70;
+}
+
+.login-form {
+	width: 450px;
+	margin: 0 auto;
+	padding: 30px 0;
+	margin-top: 9rem;
+}
+
+.login-form form {
+	color: #434343;
+	border-radius: 1px;
+	margin-bottom: 15px;
+	background: #fff;
+	border: 1px solid #f3f3f3;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+
+.login-form h4 {
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.login-form .form-group {
+	margin-bottom: 20px;
+}
+
+.login-form .form-control, .login-form .btn {
+	min-height: 40px;
+	border-radius: 15px;
+	transition: all 0.5s;
+}
+
+.login-form .close {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+.login-form .btn {
+	background: #007bff;
+	border: none;
+	line-height: normal;
+}
+
+.login-form .btn:hover, .login-form .btn:focus {
+	background: #42ae68;
+}
+
+.login-form .small {
+	font-size: 15px;
+	margin-top: 1rem;
+}
+
+.login-form a {
+	color: #007bff;
+}
+
+.profile {
+	margin-top:2rem;
+	border: solid 2px white;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	padding: 10px 5px;
+	background-color: white;
+	width: 60%;
+	
+	
+}
+
+.form {
+	width: 950px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+
+.fit-image{
+width: 100%;
+border-radius: 1rem;
+height: 100%; 
+}
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.card-text {
+   padding:1em;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.show-read-more .more-text{
+        display: none;
+    }
+.diary {
+	padding: 1em;
+	position: relative;
+}
+
+.diary h1 {
+	color: #F97300;
+	margin: 2em;
+}
+
+.diary img {
+	height: 100%;
+	width: 100%;
+}
+
+.diary span {
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+
+.diary .desc {
+	padding: 2em;
+	border-left: 2px solid #999;
+}
+
+.diary .desc h3 {
+	color: #212529db;
+}
+
+.diary.desc p {
+	line-height: 2;
+	color: #888;
+}
